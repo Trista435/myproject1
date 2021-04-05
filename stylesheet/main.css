@@ -1,0 +1,137 @@
+body{
+	
+	background-size:50%;
+	padding-top: -5px;
+	margin:0;
+	cursor: url(https://cur.cursors-4u.net/games/gam-9/gam847.ani), url(https://cur.cursors-4u.net/games/gam-9/gam847.png), auto !important;
+	
+	
+}
+.title{
+	background: #9EE4A3;
+	height: 80px;
+	margin-top: -22px;
+	margin-bottom: 0px;
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+.title h1{
+	position: absolute;
+	top: 10px;
+	left: 45%;
+	
+}
+nav > ul {
+    background-color: pink;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+	
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav a:hover {
+    background-color: rgb(246,145,145);
+    color: white;
+}
+.IntrC{
+	display: flex;
+    justify-content: space-evenly;
+	font-family: Comic Sans MS;
+	display: block;
+    position: fixed;
+    top: 0px;    
+    font-size: 50px;
+    
+	
+}
+
+
+
+.content {
+    height:1500px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+	
+    background-color: #FDF6D7;
+	position:relative;
+	
+}
+.content_text{
+	font-family: Comic Sans MS;
+	font-size:24px;
+	position:absolute;
+	left: 5%;
+	top:36px;
+}
+
+.site-footer {
+	background-color: #FFFFFF;
+	position: relative;
+}
+.site-footer-inner {
+
+	height: 100px;
+	
+}
+.photo{
+	position: absolute;
+	right:43%;
+	top:3%;
+}
+.photo2{
+	position: absolute;
+	right:5%;
+	top:3%;
+}
+.FB{
+	position: absolute;
+	left:15%;
+	top:35%;
+	
+}
+.FBT a{
+	text-decoration: none;
+	color: inherit;
+	position: absolute;
+	left:20%;
+	top:40%;
+	font-family:標楷體;
+	
+}
+.IG{
+	position: absolute;
+	left:30%;
+	top:35%;
+}
+.IGT a{
+	text-decoration: none;
+	color: inherit;
+	position: absolute;
+	left:35%;
+	top:40%;
+	font-family:Comic Sans MS;
+	
+}
+.phone{
+	position: absolute;
+	left:50%;
+	top:40%;
+	font-family:Comic Sans MS;
+}
+.CALL{
+	position: absolute;
+	right:20%;
+	top:35%;
+}
